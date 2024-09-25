@@ -1,0 +1,76 @@
+body{
+    padding:20px;
+    font-family:monospace;
+    font-size:16px;
+    text-align:center;
+  }
+  .img{
+    background-image:url(https://images.pexels.com/photos/757185/pexels-photo-757185.jpeg?cs=srgb&dl=pexels-joshuaklr-757185.jpg&fm=jpg);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    z-index:-1;
+    position:absolute;
+    background-position:center;
+    top:0;
+    left:0;
+    filter:blur(3.5px);
+  
+  }
+  label{
+    color:white;
+    display:block;
+    margin:0.5rem 0;
+  }
+  
+  input{
+    margin:10px 0 0 0;
+    width:100%;
+    min-height:2em;
+    
+  }
+  fieldset{
+    border:none;
+    padding:2rem 0;
+   /*border-bottom:3px solid grey*/
+  }
+  form{
+    width:40%;
+    margin:auto 0;
+    padding-bottom:2em;
+    margin-left:30%;
+    
+  }
+  input,textarea{
+    background-color:silver;
+    border:1px solid grey;
+  }
+  input[type='submit']{
+    display:block;
+    width:20%;
+    margin:1em auto;
+    height:20px;
+    border-color: grey;
+  
+  }
+  .inline{
+    display:inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  ::placeholder{
+    color:grey;
+  }
+  
+  textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  cbox{
+    background-color:silver;
+  }
+  
+  

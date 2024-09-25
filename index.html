@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
+  <head>
+  <link href='styles.css' rel='stylesheet' />
+  <title><h1>Survey Form</h1></title>
+  </head>
+  <body>
+    <div class='img'></div>
+      <h1 id='title'>Personality form</h1>
+      <p id='description'>let us know more about you!</p>
+      <form id='survey-form'>
+        <label id='name-label'>Enter your name <input placeholder='Jack..' required type='text' id='name'></label>
+        <label id='email-label'>Enter your email <input placeholder='abcde@gmail.com' type='email' id='email' required></label>
+        <label id='number-label'>Enter your age <input required type='number' min='9' max='120' id='number' placeholder='age..'></label>
+
+<label>What engine do you prefer? <select id='dropdown'></label>
+  <option value=''>(select any)</option>
+  <option value='6'>V6</option>
+  <option value='8'>V8</option>
+  <option value='10'>V10</option>
+  </select>
+
+<label>Which era do you prefer?</label>
+<label><input value ='0' type='radio' checked name='era' class='inline'> Mordern</label>
+<label><input value = '1'type='radio' name='era' class='inline'> Vintage</label>
+<div class='cbox'>
+  <label>How enthusiastic are you in cars?</label>
+  <input value='1' type='checkbox'>Crazy fanatic
+  <input type='checkbox' value='2'>well intriguied
+  <input type='checkbox' value='3'>Moderate
+</div>
+<label>Explain your knowledge about cars<textarea></textarea>
+
+  <input id ='submit' type='submit'>
+      </form>
+  </body>    
+</html>
